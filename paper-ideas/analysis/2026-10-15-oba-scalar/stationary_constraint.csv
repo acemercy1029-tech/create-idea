@@ -1,0 +1,13 @@
+method,stationary_max_pair_mse,meets_point_target
+oba_scalar,0.2450489908163824,False
+oba_scalar_h5,0.16613767993028353,False
+oba_scalar_h20,0.07113717183364729,False
+monitor_only_h20,0.11593329600671963,False
+rotating_h1,0.033675935867367696,False
+rotating_h5,0.006738345985317868,True
+rotating_h20,0.0016898048933318695,True
+rotating_h40,0.0008561234008490977,True
+rotating_z2,0.0030119622410435835,True
+rotating_z3,0.0018286605191012097,True
+uniform_h20,0.028856931923808265,False
+constant_zero,0.3600000000004996,False

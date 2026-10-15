@@ -1,0 +1,16 @@
+{
+  "seed": 2026101507,
+  "repeats": 1000,
+  "n": 42000,
+  "w": 20,
+  "T": 240,
+  "epsilon": 1.0,
+  "stationary_target": 0.01,
+  "communication_cap_bits": 2,
+  "source": "https://arxiv.org/html/2512.24899v1",
+  "full_paper_reproduction": false,
+  "smallest_monitor_std": 1.5118185214553312,
+  "python_dependencies": {
+    "numpy": "1.23.5"
+  }
+}
