@@ -1,0 +1,111 @@
+{
+  "seed": 20261015,
+  "repeats": 1000,
+  "n": 42000,
+  "w": 20,
+  "T": 240,
+  "warmup": 40,
+  "d": 6,
+  "pairs": [
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      0,
+      3
+    ],
+    [
+      0,
+      4
+    ],
+    [
+      0,
+      5
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      1,
+      4
+    ],
+    [
+      1,
+      5
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      2,
+      4
+    ],
+    [
+      2,
+      5
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      3,
+      5
+    ],
+    [
+      4,
+      5
+    ]
+  ],
+  "epsilons": [
+    0.3,
+    1.0,
+    3.0
+  ],
+  "events_zero_based": [
+    [
+      80,
+      0,
+      0.6
+    ],
+    [
+      120,
+      9,
+      -0.6
+    ],
+    [
+      160,
+      14,
+      0.6
+    ]
+  ],
+  "pulse_duration": 8,
+  "post_metric_length": 10,
+  "horizons": [
+    1,
+    5,
+    20,
+    40
+  ],
+  "python": "3.8.3 (default, Jul  2 2020, 17:30:36) [MSC v.1916 64 bit (AMD64)]",
+  "numpy": "1.23.5",
+  "matplotlib": "3.7.5",
+  "validates": [
+    "rolling window privacy ledger",
+    "feasible joint family",
+    "analytic unclipped MSE"
+  ],
+  "main_estimators_clipped": true,
+  "monte_carlo_ci": "normal 95% interval over independent runs"
+}
