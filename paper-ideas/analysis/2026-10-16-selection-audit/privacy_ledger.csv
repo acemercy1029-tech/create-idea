@@ -1,0 +1,6 @@
+case,max_window_budget
+reuse,0.6000000000000001
+predictable_low,0.30000000000000004
+predictable_high,0.7
+selected,1.0
+independent_check,1.0

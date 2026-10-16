@@ -1,0 +1,18 @@
+{
+  "seed": 2026101610,
+  "repeats": 200000,
+  "n": 2800,
+  "w": 20,
+  "epsilon_cap": 1,
+  "common_communication_cap_bits": 2,
+  "estimates_clipped": false,
+  "fixed_records": true,
+  "history_candidates": 4,
+  "probability_high_budget": 0.13348800542033193,
+  "exact_selected_second_moment": 0.15652503330442114,
+  "selected_history_bias": 0.0931518836223188,
+  "python": "3.8.3 (default, Jul  2 2020, 17:30:36) [MSC v.1916 64 bit (AMD64)]",
+  "numpy": "1.23.5",
+  "scipy": "1.5.0",
+  "full_paper_reproduction": false
+}
