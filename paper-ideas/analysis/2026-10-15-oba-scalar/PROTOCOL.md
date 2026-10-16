@@ -17,3 +17,9 @@ Written before running this experiment. This is NOT the full MTSP-LDP algorithm.
 - Communication cap for this NEW comparison is two randomized-response bits per user-round, excluding public control information. Earlier baselines use at most one. All methods share the same two-bit ceiling, but communication usage is not equal. Do not call this an exact continuation of round 6's one-bit cap.
 - Baselines: population rotation h1/h5/h20/h40, z2/z3 two-window selection, uniform-budget h20, constant zero. All outputs clipped. Fixed seed 2026101507; confidence intervals from independent simulation runs.
 - No result of this reduced module establishes performance of full MTSP-LDP or an advantage over that paper.
+
+## Later audit (2026-10-16; original experiment unchanged)
+
+- Source Section 2.6 explicitly permits population division for MTSP-LDP. This adaptation does not implement it; the rotating baselines therefore also differ in data-collection schedule.
+- Source Algorithm 1 / Section 3.2 feeds the grouped/smoothed release into subsequent decisions. Here h5/h20 are final postprocessing only; they do not reproduce that feedback path.
+- See the round-8 report for heteroscedasticity and reused-output questions when extending GroupSmooth. These do not invalidate the differently defined monitoring score in this protocol.

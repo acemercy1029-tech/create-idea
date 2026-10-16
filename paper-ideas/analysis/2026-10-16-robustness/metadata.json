@@ -1,0 +1,39 @@
+{
+  "seed": 2026101608,
+  "repeats": 1000,
+  "n": 42000,
+  "w": 20,
+  "T": 240,
+  "epsilon": 1.0,
+  "d": 6,
+  "m": 15,
+  "reports_per_pair_round": 140,
+  "communication_bits": 1,
+  "stationary_target": 0.01,
+  "h_min_from_stationary_formula": 4,
+  "theoretical_stationary_h4_upper": 0.008361954244341375,
+  "amplitudes": [
+    0.2,
+    0.4,
+    0.6
+  ],
+  "durations": [
+    2,
+    8,
+    20,
+    "persistent"
+  ],
+  "horizons": [
+    1,
+    4,
+    5,
+    20,
+    40
+  ],
+  "python": "3.8.3 (default, Jul  2 2020, 17:30:36) [MSC v.1916 64 bit (AMD64)]",
+  "numpy": "1.23.5",
+  "matplotlib": "3.7.5",
+  "max_analytic_relative_error": 0.02767252283164867,
+  "main_outputs_clipped": true,
+  "full_paper_reproduction": false
+}
