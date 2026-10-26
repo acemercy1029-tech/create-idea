@@ -1,0 +1,32 @@
+{
+  "seed": 2026102610,
+  "repeats": 1000,
+  "n": 42000,
+  "m": 15,
+  "w": 20,
+  "T": 240,
+  "epsilon": 1.0,
+  "stationary_target": 0.01,
+  "common_bits_per_user_round": 1,
+  "per_user_participations_per_window": 1,
+  "alphas": [
+    0.25,
+    0.5
+  ],
+  "amplitudes": [
+    0.2,
+    0.6
+  ],
+  "durations": [
+    2,
+    8,
+    "persistent"
+  ],
+  "main_outputs_clipped": true,
+  "python": "3.8.3 (default, Jul  2 2020, 17:30:36) [MSC v.1916 64 bit (AMD64)]",
+  "numpy": "1.23.5",
+  "full_paper_reproduction": false,
+  "secondary_after_first_results": "fixed h20 on private LPD outputs; no changes to collection or main metrics",
+  "oracle_is_private": false,
+  "score_target": "current population rho versus realized past release"
+}
