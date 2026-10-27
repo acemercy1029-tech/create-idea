@@ -1,0 +1,5 @@
+check,passed,detail
+equal_variance_group_identity,True,20 independent states
+no_report_no_new_group_observation,True,state unchanged
+round10_exact_collection_alpha_0.25,True,8 repeats x 240 x 15
+round10_exact_collection_alpha_0.5,True,8 repeats x 240 x 15

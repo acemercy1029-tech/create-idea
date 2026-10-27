@@ -1,0 +1,24 @@
+{
+  "seed": 2026102711,
+  "repeats": 1000,
+  "n": 42000,
+  "m": 15,
+  "w": 20,
+  "T": 240,
+  "epsilon": 1.0,
+  "target": "current population correlation",
+  "stationary_working_target": 0.01,
+  "monitoring_alphas": [
+    0.25,
+    0.5
+  ],
+  "python": "3.8.3 (default, Jul  2 2020, 17:30:36) [MSC v.1916 64 bit (AMD64)]",
+  "numpy": "1.23.5",
+  "collection_strategies_per_alpha": 4,
+  "methods": 25,
+  "scenarios": 7,
+  "all_outputs_causal": true,
+  "full_paper_reproduction": false,
+  "grouping_proxy_not_conditional_variance_guarantee": true,
+  "adaptive_pooled_estimate_not_claimed_unbiased": true
+}
