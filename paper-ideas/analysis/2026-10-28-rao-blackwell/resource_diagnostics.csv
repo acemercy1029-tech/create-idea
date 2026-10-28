@@ -1,0 +1,7 @@
+scenario,collection,monitor_reports,mean_total_reports,update_fraction,max_window_total
+stationary,lpd50_raw,70,124.648696,0.2755146666666667,2797
+stationary,rotation,0,140,1.0,2800
+d0.2_L8,lpd50_raw,70,124.670157,0.27705566666666664,2798
+d0.2_L8,rotation,0,140,1.0,2800
+d0.6_L8,lpd50_raw,70,124.696338,0.277375,2797
+d0.6_L8,rotation,0,140,1.0,2800

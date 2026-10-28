@@ -1,0 +1,6 @@
+check,passed,value
+independent_hypergeometric_conditional_mean,True,4.725664304316979e-13
+zero_available_reports_identity,True,0.0
+round11_exact_enumeration_regression,True,5.1736392947532295e-14
+all_351_exact_biases_and_variance_domination,True,3.1030733538273125e-13
+round11_raw_collection_regression,True,0.0

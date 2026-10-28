@@ -1,0 +1,20 @@
+{
+  "seed": 2026102812,
+  "repeats": 1000,
+  "epsilon": 1.0,
+  "w": 20,
+  "T": 240,
+  "n": 42000,
+  "attribute_pairs": 15,
+  "exact_cases": 351,
+  "stream_scenarios": 3,
+  "methods": 7,
+  "python": "3.8.3 (default, Jul  2 2020, 17:30:36) [MSC v.1916 64 bit (AMD64)]",
+  "numpy": "1.23.5",
+  "elapsed_seconds": 40.39111328125,
+  "rule": "classical Rao-Blackwell conditional expectation, not a new method",
+  "target": "current population correlation",
+  "rb_feedback": false,
+  "same_privacy_and_reports_within_lpd_collection": true,
+  "clipped_output_not_claimed_unbiased": true
+}
