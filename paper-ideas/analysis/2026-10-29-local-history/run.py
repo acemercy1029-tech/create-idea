@@ -52,10 +52,15 @@ def winner_prob(b, active, rho, dims=M):
     sig = abs_pmf(sig, b)
     cdf = np.cumsum(null)
     cdf[-1] = 1.
-    below = np.maximum(0., cdf - null)
     weights = np.zeros_like(null)
     valid = null > 0
-    weights[valid] = (cdf[valid] ** dims - below[valid] ** dims) / (dims * null[valid])
+    # Stable difference of close powers. Direct subtraction loses rare-tail
+    # contributions when cdf and cdf-null both round to one (b=64).
+    q = np.minimum(1., null[valid] / cdf[valid])
+    numerator = np.ones_like(q)
+    interior = q < 1
+    numerator[interior] = -np.expm1(dims * np.log1p(-q[interior]))
+    weights[valid] = cdf[valid] ** (dims - 1) * numerator / (dims * q)
     return float(sig @ weights)
 
 

@@ -1,0 +1,18 @@
+{
+  "seed": 2026102916,
+  "repetitions": 500,
+  "users": 20480,
+  "pairs": 256,
+  "timestamps": 320,
+  "epsilon": 1.0,
+  "w": 20,
+  "old_duration": 64,
+  "new_durations": [
+    8,
+    32,
+    96
+  ],
+  "risk": "selector Monte Carlo; current independent RR risk exactly integrated",
+  "seconds": 114.15398669242859,
+  "novelty_claim": false
+}

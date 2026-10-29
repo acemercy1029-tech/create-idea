@@ -9,7 +9,8 @@
   "warmup": 64,
   "scenes": 8,
   "methods": 11,
-  "seconds": 69.74197196960449,
+  "stronger_baselines": false,
+  "seconds": 75.66425633430481,
   "conditional_publication_risk": "exact binomial; selector risk Monte Carlo",
   "limitations": [
     "star workload",

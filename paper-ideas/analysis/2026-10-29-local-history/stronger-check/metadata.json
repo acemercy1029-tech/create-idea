@@ -10,7 +10,7 @@
   "scenes": 8,
   "methods": 15,
   "stronger_baselines": true,
-  "seconds": 187.7359321117401,
+  "seconds": 175.74839425086975,
   "conditional_publication_risk": "exact binomial; selector risk Monte Carlo",
   "limitations": [
     "star workload",

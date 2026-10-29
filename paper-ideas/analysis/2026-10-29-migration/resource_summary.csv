@@ -1,0 +1,6 @@
+method_family,steady_screen_reports_per_round,steady_estimation_reports_per_round,total_reports_per_round,per_report_epsilon
+server_screen,512.0,512.0,1024.0,1
+local_b16,292.57142857142856,512.0,804.5714285714286,1
+local_b64,123.37349397590361,512.0,635.3734939759036,1
+two_scale,207.97246127366608,512.0,719.9724612736661,1
+all_rotation_hmm,0,1024.0,1024.0,1
