@@ -1,0 +1,21 @@
+{
+  "seed": 2026102914,
+  "repetitions": 300,
+  "users": 20480,
+  "pairs": 256,
+  "epsilon": 1.0,
+  "privacy_window": 20,
+  "timestamps": 256,
+  "warmup": 64,
+  "scenes": 8,
+  "methods": 11,
+  "seconds": 69.74197196960449,
+  "conditional_publication_risk": "exact binomial; selector risk Monte Carlo",
+  "limitations": [
+    "star workload",
+    "independent times/users",
+    "at most one active coordinate",
+    "not a full paper implementation",
+    "no novelty claim"
+  ]
+}

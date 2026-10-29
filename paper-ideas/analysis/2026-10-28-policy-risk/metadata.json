@@ -1,0 +1,17 @@
+{
+  "seed": 2026102813,
+  "repeats": 100000,
+  "n": 2800,
+  "T": 20,
+  "w": 20,
+  "total_epsilon_cap": 1.0,
+  "publication_budget_used": 0.5,
+  "monitoring_not_simulated": true,
+  "target": "current population correlation",
+  "schedule": "fixed public; never chosen by truth online",
+  "frozen_scores": "full-information diagnostic, not deployable private input",
+  "full_paper_reproduction": false,
+  "policy_optimality_claim": false,
+  "python": "3.8.3 (default, Jul  2 2020, 17:30:36) [MSC v.1916 64 bit (AMD64)]",
+  "numpy": "1.23.5"
+}

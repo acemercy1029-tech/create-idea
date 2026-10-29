@@ -1,0 +1,3 @@
+batch,stride,max_affected_reports,total_epsilon,private_bit_epsilon
+16,35,1,1.0,1.0
+64,83,1,1.0,1.0

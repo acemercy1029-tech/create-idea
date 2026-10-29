@@ -1,0 +1,2 @@
+w,history,report_stride,changed_start,changed_end,report_times,outputs,probability_x,probability_x_prime,log_likelihood_ratio,claimed_epsilon,exceeds_claim
+4,3,4,2,5,2;6,+1;+1,0.534446645388523,0.07232948812851325,2.0000000000000004,1.0,True
