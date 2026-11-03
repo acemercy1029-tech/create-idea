@@ -1,0 +1,75 @@
+test,setting,error,tolerance
+iid_winner,"(8, 0)",3.369700352084948e-16,1e-10
+iid_winner,"(8, 4)",9.020562075079397e-16,1e-10
+iid_winner,"(8, 8)",4.5102810375396984e-15,1e-10
+affected_history_reports,8,1,1
+iid_winner,"(16, 0)",2.2972075630622868e-15,1e-10
+iid_winner,"(16, 8)",1.7170292965218437e-14,1e-10
+iid_winner,"(16, 16)",1.3811174426336947e-13,1e-10
+affected_history_reports,16,1,1
+iid_winner,"(32, 0)",1.2195973397854942e-14,1e-10
+iid_winner,"(32, 16)",2.7342017538956043e-13,1e-10
+iid_winner,"(32, 32)",2.1439516828536398e-12,1e-10
+affected_history_reports,32,1,1
+iid_winner,"(64, 0)",9.308526172091547e-15,1e-10
+iid_winner,"(64, 32)",6.196154700432999e-13,1e-10
+iid_winner,"(64, 64)",2.2861712523081223e-12,1e-10
+affected_history_reports,64,1,1
+iid_winner,"(128, 0)",4.419511631659212e-14,1e-10
+iid_winner,"(128, 64)",7.311484750971431e-12,1e-10
+iid_winner,"(128, 128)",1.1305623104362894e-11,1e-10
+affected_history_reports,128,1,1
+server_moments,"(0.0, 1, 8)",8.881784197001252e-16,1e-08
+server_moments,"(0.0, 1, 32)",3.552713678800501e-15,1e-08
+server_moments,"(0.0, 1, 128)",1.4210854715202004e-14,1e-08
+server_moments,"(0.0, 2, 8)",0.0,1e-08
+server_moments,"(0.0, 2, 32)",1.7763568394002505e-15,1e-08
+server_moments,"(0.0, 2, 128)",0.0,1e-08
+server_moments,"(0.0, 3, 8)",1.7763568394002505e-15,1e-08
+server_moments,"(0.0, 3, 32)",1.4210854715202004e-14,1e-08
+server_moments,"(0.0, 3, 128)",0.0,1e-08
+server_previous_nonstationary,"(0.0, 32)",4.163336342344337e-17,1e-10
+server_previous_nonstationary,"(0.0, 128)",1.3877787807814457e-17,1e-10
+server_moments,"(0.3, 1, 8)",8.881784197001252e-16,1e-08
+server_moments,"(0.3, 1, 32)",8.881784197001252e-16,1e-08
+server_moments,"(0.3, 1, 128)",3.552713678800501e-15,1e-08
+server_moments,"(0.3, 2, 8)",0.0,1e-08
+server_moments,"(0.3, 2, 32)",1.7763568394002505e-15,1e-08
+server_moments,"(0.3, 2, 128)",7.105427357601002e-15,1e-08
+server_moments,"(0.3, 3, 8)",1.7763568394002505e-15,1e-08
+server_moments,"(0.3, 3, 32)",0.0,1e-08
+server_moments,"(0.3, 3, 128)",0.0,1e-08
+server_previous_nonstationary,"(0.3, 32)",2.7755575615628914e-17,1e-10
+server_previous_nonstationary,"(0.3, 128)",1.3877787807814457e-17,1e-10
+server_moments,"(0.6, 1, 8)",8.881784197001252e-16,1e-08
+server_moments,"(0.6, 1, 32)",0.0,1e-08
+server_moments,"(0.6, 1, 128)",1.4210854715202004e-14,1e-08
+server_moments,"(0.6, 2, 8)",0.0,1e-08
+server_moments,"(0.6, 2, 32)",0.0,1e-08
+server_moments,"(0.6, 2, 128)",7.105427357601002e-15,1e-08
+server_moments,"(0.6, 3, 8)",1.7763568394002505e-15,1e-08
+server_moments,"(0.6, 3, 32)",3.552713678800501e-15,1e-08
+server_moments,"(0.6, 3, 128)",2.842170943040401e-14,1e-08
+server_previous_nonstationary,"(0.6, 32)",5.551115123125783e-17,1e-10
+server_previous_nonstationary,"(0.6, 128)",2.0816681711721685e-17,1e-10
+server_moments,"(0.8, 1, 8)",8.881784197001252e-16,1e-08
+server_moments,"(0.8, 1, 32)",3.552713678800501e-15,1e-08
+server_moments,"(0.8, 1, 128)",1.0658141036401503e-14,1e-08
+server_moments,"(0.8, 2, 8)",0.0,1e-08
+server_moments,"(0.8, 2, 32)",7.105427357601002e-15,1e-08
+server_moments,"(0.8, 2, 128)",7.105427357601002e-15,1e-08
+server_moments,"(0.8, 3, 8)",1.7763568394002505e-15,1e-08
+server_moments,"(0.8, 3, 32)",7.105427357601002e-15,1e-08
+server_moments,"(0.8, 3, 128)",1.4210854715202004e-14,1e-08
+server_previous_nonstationary,"(0.8, 32)",5.551115123125783e-17,1e-10
+server_previous_nonstationary,"(0.8, 128)",2.0816681711721685e-17,1e-10
+mixture_vector_simulation,"(False, 0, 0)",3.143571594901688e-05,0.0001597969707409588
+mixture_vector_simulation,"(False, 0, 1)",7.35304419049454e-05,0.0005384800161854545
+mixture_vector_simulation,"(False, 1, 0)",7.74483629837619e-05,0.0005371164612640916
+mixture_vector_simulation,"(False, 1, 1)",2.1026252354894304e-05,0.00017362181038081055
+mixture_vector_simulation,"(False, 1, 2)",4.88347518745047e-05,0.00012160224251041216
+mixture_vector_simulation,"(True, 0, 0)",4.554943495198305e-05,0.0007220533009142011
+mixture_vector_simulation,"(True, 0, 1)",8.857219796372384e-05,0.0012665529569728705
+mixture_vector_simulation,"(True, 1, 0)",0.0001538691169009343,0.0012627957198998972
+mixture_vector_simulation,"(True, 1, 1)",7.203321197302159e-07,3.3367441938769855e-05
+mixture_vector_simulation,"(True, 1, 2)",8.797821535289074e-06,3.50576130191097e-05

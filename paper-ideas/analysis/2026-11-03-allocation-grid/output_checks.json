@@ -1,0 +1,9 @@
+{
+  "pilot_rows": 2240,
+  "frozen_choices": 48,
+  "confirmation_rows": 336,
+  "global_confirmation_rows": 288,
+  "kernel_checks": 74,
+  "max_mean_bits": 1024.0,
+  "checks": "frozen selection matches pilot; resources within cap; zero baseline and output intervals valid"
+}

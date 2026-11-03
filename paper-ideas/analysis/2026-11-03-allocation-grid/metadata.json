@@ -1,0 +1,35 @@
+{
+  "client_date": "2026-11-03",
+  "n": 20480,
+  "m": 256,
+  "w": 20,
+  "epsilon": 1.0,
+  "lambdas": [
+    0.0,
+    0.3,
+    0.6,
+    0.8
+  ],
+  "sizes": [
+    8,
+    16,
+    32,
+    64,
+    128
+  ],
+  "screening_fractions": [
+    0.25,
+    0.5,
+    0.75
+  ],
+  "fixed_configs": 55,
+  "pilot_repeats": 300,
+  "confirmation_migration_repeats": 1500,
+  "confirmation_stable_repeats": 5000,
+  "seeds": [
+    2026110317,
+    2026110318
+  ],
+  "elapsed_seconds": 329.8289999999106,
+  "note": "Independent per-time snapshots, not path trajectories. Frozen choices know environment; not an online algorithm."
+}

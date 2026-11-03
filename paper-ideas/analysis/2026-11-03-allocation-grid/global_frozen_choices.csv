@@ -1,0 +1,7 @@
+threshold,family,method,pilot_equal_weight_mse
+False,local,local32_a3,0.2319719329792836
+False,server,server64_a3,0.22476214253916876
+False,mix,mix_b32_h64,0.26430408342300926
+True,local,local32_a2,0.22740716090359397
+True,server,server64_a3,0.23033183762972143
+True,mix,mix_b32_h64,0.2656742258151333
