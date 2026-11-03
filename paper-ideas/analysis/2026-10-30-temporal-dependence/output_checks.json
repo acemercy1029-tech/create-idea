@@ -1,0 +1,8 @@
+{
+  "summary_rows": 480,
+  "curve_rows": 4074,
+  "thinning_output_rows": 36,
+  "kernel_checks": 86,
+  "max_risk_aggregation_error": 6.106226635438361e-16,
+  "checks": "risk aggregation, zero baseline, output dimensions, thinning transition powers and accounting"
+}

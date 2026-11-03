@@ -1,0 +1,23 @@
+{
+  "n": 20480,
+  "candidates": 256,
+  "w": 20,
+  "epsilon": 1.0,
+  "trials_per_snapshot": 1000,
+  "seed": 2026103016,
+  "lambdas": [
+    0.0,
+    0.3,
+    0.6,
+    0.8,
+    0.9,
+    0.95
+  ],
+  "amplitude": 0.6,
+  "snapshots": "independent across target times; not full trajectories",
+  "elapsed_seconds": 156.25,
+  "null_risk": 0.009145887454746489,
+  "signal_risk": 0.008442696615788172,
+  "threshold_null_risk": 0.0001384026255352454,
+  "threshold_signal_risk": 0.008661778720381383
+}
