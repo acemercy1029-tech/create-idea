@@ -1,0 +1,9 @@
+scope,calibration_users,threshold,mse,note
+training_grid,256,False,0.08966083847619181,Frozen on training; derived from same held-out fixed-policy risks; no new independent experiment or CI
+training_grid,256,True,0.0849470515351808,Frozen on training; derived from same held-out fixed-policy risks; no new independent experiment or CI
+training_grid,1024,False,0.08905654337219071,Frozen on training; derived from same held-out fixed-policy risks; no new independent experiment or CI
+training_grid,1024,True,0.0828065650656398,Frozen on training; derived from same held-out fixed-policy risks; no new independent experiment or CI
+unseen_lambda,256,False,0.0968557999979555,Frozen on training; derived from same held-out fixed-policy risks; no new independent experiment or CI
+unseen_lambda,256,True,0.09226659589246473,Frozen on training; derived from same held-out fixed-policy risks; no new independent experiment or CI
+unseen_lambda,1024,False,0.09207234709805041,Frozen on training; derived from same held-out fixed-policy risks; no new independent experiment or CI
+unseen_lambda,1024,True,0.08677796567697436,Frozen on training; derived from same held-out fixed-policy risks; no new independent experiment or CI

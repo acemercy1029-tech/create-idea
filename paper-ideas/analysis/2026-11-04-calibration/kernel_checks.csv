@@ -1,0 +1,64 @@
+test,setting,error,tolerance
+markov_product_mean,"(0.0, 0.5)",0.0,1e-12
+markov_product_mean,"(0.0, 0.8)",2.220446049250313e-16,1e-12
+markov_product_mean,"(0.3, 0.5)",1.6653345369377348e-16,1e-12
+markov_product_mean,"(0.3, 0.8)",4.440892098500626e-16,1e-12
+markov_product_mean,"(0.6, 0.5)",1.1102230246251565e-16,1e-12
+markov_product_mean,"(0.6, 0.8)",2.220446049250313e-16,1e-12
+markov_product_mean,"(0.8, 0.5)",0.0,1e-12
+markov_product_mean,"(0.8, 0.8)",2.220446049250313e-16,1e-12
+markov_product_mean,"(0.15, 0.5)",8.326672684688674e-17,1e-12
+markov_product_mean,"(0.15, 0.8)",1.1102230246251565e-16,1e-12
+markov_product_mean,"(0.45, 0.5)",1.6653345369377348e-16,1e-12
+markov_product_mean,"(0.45, 0.8)",4.440892098500626e-16,1e-12
+markov_product_mean,"(0.7, 0.5)",0.0,1e-12
+markov_product_mean,"(0.7, 0.8)",2.220446049250313e-16,1e-12
+calibration_decision_law,"(0.0, 'constant', 256)",0.00042210392560204646,0.006766710119450132
+calibration_decision_law,"(0.0, 'constant', 1024)",0.0009307880243734079,0.0022853581450261165
+calibration_decision_law,"(0.0, 'migration96', 256)",0.0011800417284903442,0.006721356239653254
+calibration_decision_law,"(0.0, 'migration96', 1024)",0.0009977432390698704,0.002227717051931268
+calibration_decision_law,"(0.15, 'constant', 256)",0.002795006196176286,0.009545255354672905
+calibration_decision_law,"(0.15, 'constant', 1024)",0.0017141315398817025,0.00954587110687702
+calibration_decision_law,"(0.15, 'migration96', 256)",0.00185825605841633,0.009546174886279438
+calibration_decision_law,"(0.15, 'migration96', 1024)",0.0005900212325915533,0.00954683293311125
+calibration_decision_law,"(0.3, 'constant', 256)",0.0013252564647214943,0.008343975787497734
+calibration_decision_law,"(0.3, 'constant', 1024)",0.0006754429168822629,0.003023153960178178
+calibration_decision_law,"(0.3, 'migration96', 256)",0.00270218808018885,0.008342830924203435
+calibration_decision_law,"(0.3, 'migration96', 1024)",0.0005579572684427658,0.0030232990516855674
+calibration_decision_law,"(0.45, 'constant', 256)",0.0013364991533970638,0.00954070161835263
+calibration_decision_law,"(0.45, 'constant', 1024)",0.0007542832434911939,0.00954640360434133
+calibration_decision_law,"(0.45, 'migration96', 256)",0.0017433221610882454,0.009540327472325416
+calibration_decision_law,"(0.45, 'migration96', 1024)",0.0029143065588465578,0.00954683281175853
+calibration_decision_law,"(0.6, 'constant', 256)",0.0004897144367753681,0.009046258220392603
+calibration_decision_law,"(0.6, 'constant', 1024)",0.0006416837437442924,0.005027627690705799
+calibration_decision_law,"(0.6, 'migration96', 256)",0.0018033524813706736,0.009043724557901605
+calibration_decision_law,"(0.6, 'migration96', 1024)",0.0002691943411530229,0.005002302509327675
+calibration_decision_law,"(0.7, 'constant', 256)",0.0004109571470610751,0.009546820684221535
+calibration_decision_law,"(0.7, 'constant', 1024)",0.0028376174867780213,0.009545825337627751
+calibration_decision_law,"(0.7, 'migration96', 256)",0.0005515084038419937,0.009546747583484724
+calibration_decision_law,"(0.7, 'migration96', 1024)",0.0014835683295187918,0.009546421577806634
+calibration_decision_law,"(0.8, 'constant', 256)",0.0013737658395238384,0.00785753655362689
+calibration_decision_law,"(0.8, 'constant', 1024)",0.00034758129250629655,0.004385711764214364
+calibration_decision_law,"(0.8, 'migration96', 256)",0.0008254159008958817,0.007866196051170764
+calibration_decision_law,"(0.8, 'migration96', 1024)",0.000774494356696985,0.0044042927517337575
+round_uplink_and_disjoint_population,"(0, 'local16')",805,1024
+round_uplink_and_disjoint_population,"(0, 'local32')",713,1024
+round_uplink_and_disjoint_population,"(0, 'local64')",636,1024
+round_uplink_and_disjoint_population,"(0, 'local128')",582,1024
+round_uplink_and_disjoint_population,"(0, 'server32')",1024,1024
+round_uplink_and_disjoint_population,"(0, 'server64')",1024,1024
+round_uplink_and_disjoint_population,"(0, 'server128')",1024,1024
+round_uplink_and_disjoint_population,"(256, 'local16')",793,1024
+round_uplink_and_disjoint_population,"(256, 'local32')",701,1024
+round_uplink_and_disjoint_population,"(256, 'local64')",624,1024
+round_uplink_and_disjoint_population,"(256, 'local128')",570,1024
+round_uplink_and_disjoint_population,"(256, 'server32')",1012,1024
+round_uplink_and_disjoint_population,"(256, 'server64')",1012,1024
+round_uplink_and_disjoint_population,"(256, 'server128')",1012,1024
+round_uplink_and_disjoint_population,"(1024, 'local16')",1024,1024
+round_uplink_and_disjoint_population,"(1024, 'local32')",1024,1024
+round_uplink_and_disjoint_population,"(1024, 'local64')",1024,1024
+round_uplink_and_disjoint_population,"(1024, 'local128')",1024,1024
+round_uplink_and_disjoint_population,"(1024, 'server32')",1024,1024
+round_uplink_and_disjoint_population,"(1024, 'server64')",1024,1024
+round_uplink_and_disjoint_population,"(1024, 'server128')",1024,1024

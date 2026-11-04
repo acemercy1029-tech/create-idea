@@ -1,0 +1,35 @@
+{
+  "client_date": "2026-11-04",
+  "training_seed": 2026110418,
+  "validation_seed": 2026110419,
+  "training_repeats": 300,
+  "validation_repeats": 1500,
+  "training_lambdas": [
+    0.0,
+    0.3,
+    0.6,
+    0.8
+  ],
+  "unseen_lambdas": [
+    0.15,
+    0.45,
+    0.7
+  ],
+  "calibration_users": [
+    0,
+    256,
+    1024
+  ],
+  "full_horizon": [
+    0,
+    319
+  ],
+  "scenes": [
+    "constant",
+    "migration8",
+    "migration32",
+    "migration96"
+  ],
+  "elapsed_seconds": 582.4070000001229,
+  "note": "Expected-risk integration. Reused kernel draws retain dependence in MC SE; not full trajectories. Calibration/publication noise integrated exactly."
+}

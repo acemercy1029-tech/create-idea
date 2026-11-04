@@ -1,0 +1,9 @@
+{
+  "calibration_risk_reconstruction_max_error": 1.6653345369377348e-16,
+  "summary_rows": 98,
+  "scene_rows": 2058,
+  "fixed_validation_rows": 6174,
+  "new_kernel_checks": 63,
+  "frozen_lookup_rows": 24,
+  "checks": "private-calibration mixture reconstructed from fixed-policy risks; four-scene totals; frozen training lookup; zero baseline; report resources"
+}

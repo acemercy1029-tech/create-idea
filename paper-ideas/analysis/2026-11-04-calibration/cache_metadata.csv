@@ -1,0 +1,12 @@
+stage,lam,repeats,unique_selection_laws,cache_hits
+training,0.0,300,1035,11574
+training,0.3,300,1035,11574
+training,0.6,300,1035,11574
+training,0.8,300,1035,11574
+validation,0.0,1500,1035,11574
+validation,0.3,1500,1035,11574
+validation,0.6,1500,1035,11574
+validation,0.8,1500,1035,11574
+validation,0.15,1500,1035,11574
+validation,0.45,1500,1035,11574
+validation,0.7,1500,1035,11574
