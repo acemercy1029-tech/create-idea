@@ -1,0 +1,9 @@
+{
+  "risk_reconstruction_max_error": 2.220446049250313e-16,
+  "variance_bound_max_error": 1.4210854715202004e-14,
+  "main_checks": 630,
+  "projection_checks": 249,
+  "rows_main": 192,
+  "rows_projection": 144,
+  "rows_bounds": 320
+}

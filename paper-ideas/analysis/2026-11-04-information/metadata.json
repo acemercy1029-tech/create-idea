@@ -1,0 +1,7 @@
+{
+  "seed": 2026110419,
+  "repeats": 10000,
+  "elapsed_seconds": 116.2660000002943,
+  "checks": 630,
+  "note": "15-round distinct-user report transcript; known-onset ML diagnostic distinct from causal fixed-window methods; publication noise integrated"
+}
