@@ -1,0 +1,6 @@
+{
+  "exact_channel_checks": 300,
+  "max_exact_to_upper_ratio": 0.5356895871569847,
+  "enumerated_histories": 512,
+  "minimum_exact_schedule_bound": 0.19215368784621153
+}
